@@ -1,0 +1,8 @@
+{
+  "appId": "com.pembacapdf.app",
+  "appName": "Pembaca PDF",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  }
+}
