@@ -20,6 +20,12 @@ jobs:
           distribution: temurin
           java-version: 21
 
+      - name: Siapkan folder web
+        run: |
+          mkdir -p www/lib
+          cp index.html www/index.html
+          cp pdf.min.mjs pdf.worker.min.mjs www/lib/
+
       - name: Install dependencies
         run: npm install
 
